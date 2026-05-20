@@ -1,0 +1,42 @@
+# Python virtualenvs
+.venv/
+venv/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+core/__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+core/.env
+.env
+*.env
+
+# PDF and large data
+core/PDF/
+*.pdf
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Git attributes (if using LFS)
+.gitattributes
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# macOS
+.DS_Store
+
+# Other
+coverage/
+htmlcov/
+dist/
+build/
+*.egg-info/
