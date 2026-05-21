@@ -1,0 +1,16 @@
+.venv
+venv
+env
+__pycache__
+*.py[cod]
+*.env
+core/.env
+core/PDF/
+.git
+.gitignore
+Dockerfile
+README.md
+*.log
+dist
+build
+*.egg-info
