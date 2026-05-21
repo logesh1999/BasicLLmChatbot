@@ -129,7 +129,7 @@ def ingest_pdf_to_pinecone(pdf_folder_path):
 
 
 if __name__ == "__main__":
-    pdf_folder_path = "PDF"
+    pdf_folder_path = Path(__file__).parent / "PDF"
 
     num_chunks = ingest_pdf_to_pinecone(pdf_folder_path)
 

@@ -1,16 +1,10 @@
+.git
 .venv
 venv
-env
 __pycache__
 *.py[cod]
-*.env
+.pytest_cache
+
+# Keep local secrets out of the built image. docker-compose injects these
+# variables from core/.env at runtime via env_file.
 core/.env
-core/PDF/
-.git
-.gitignore
-Dockerfile
-README.md
-*.log
-dist
-build
-*.egg-info
